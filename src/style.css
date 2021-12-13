@@ -1,0 +1,94 @@
+body {
+    width: 550px;
+    font-family: Inter;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+nav {
+    position: relative;
+    width: 550px;
+    height: 55px;
+    background-image: url("https://banner2.cleanpng.com/20180530/pov/kisspng-flag-of-bosnia-and-herzegovina-republic-of-bosnia-bosnia-5b0ee0ca8edf10.0541159615277017065852.jpg");
+    background-position: center;
+    background-size: 1200px 300px;
+    background-position-x: -22em;
+    opacity: 0.5;
+    color: bisque;
+    text-justify: center;
+}
+
+nav>p{
+    position: absolute;
+    padding-left: 30px;
+    font-size:  13px;
+}
+
+
+
+.container {
+    position: absolute;
+    width: 550px;
+    height: 704px;
+}
+
+.travel-place {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 30px 30px;
+}
+
+
+.image-position img {
+
+width: 125px;
+height: 168px;
+border-radius: 5px;
+object-fit: cover;
+    
+}
+
+.main-text {
+    width: 380px;
+    padding-left: 30px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+
+.main-text>p{
+    width: 326px;
+    height: 45px;
+    left: 184px;
+    top: 203px;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+    text-align: justify;
+}
+
+
+
